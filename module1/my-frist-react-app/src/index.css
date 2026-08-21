@@ -1,0 +1,64 @@
+.demo{
+  background:wheat;
+  text-align: center;
+}
+.Practice{
+  background-color: aquamarine;
+}
+.props{
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: aqua;
+}
+.prodect-card{
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: rgb(225, 241, 230);
+
+
+}
+.loggedin-card{
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: rgb(213, 206, 218);
+}
+.Condition-card{
+  border: 2px solid rgb(160, 7, 7);
+  border-radius: 5px;
+  padding: 10px;
+  background-color: rgb(213, 206, 218);
+
+}
+.all-product-card{
+    border: 2px solid rgb(160, 7, 7);
+  border-radius: 5px;
+  padding: 10px;
+  background-color: rgb(213, 206, 218);
+}
+.product-detals-card{
+  border: 2px solid rgb(24, 18, 18);
+  border-radius: 5px;
+  padding: 10px;
+  background-color: rgb(95, 216, 131);
+
+}
+.product-card{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 10px;
+}
+.add-to-cart{
+  background-color: antiquewhite;
+  font-size: 20px;
+  padding: auto;
+
+}
+.add-to-cart-added{
+  background-color: rgb(169, 105, 21);
+  font-size: 20px;
+  padding: auto;
+
+}

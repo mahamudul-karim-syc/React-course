@@ -1,5 +1,7 @@
 import './App.css'
-import Singin from './component/Singin'
+import Headder from './component/Headder'
+import Layout from './component/Layout'
+// import Singin from './component/Singin'
 // import Controm from './component/Controm'
 //import Uncontrol from './component/Uncontrol'
 
@@ -10,8 +12,10 @@ function App() {
     <>
      {/* <Uncontrol/> */}
      {/* <Controm/> */}
-     <Singin/>
-
+     {/* <Singin/> */}
+   
+    <Headder/>
+     <Layout/>
 
     </>
   )

@@ -26,7 +26,7 @@ const Singin = () => {
     return (
         <div>
             <form onSubmit={SubmitHendler}>
-                <label>
+                <label >
                     Name 
                     <input value={name} onChange={(e)=>setName(e.target.value)} type="text" placeholder="Your Name" />
                     {error.name && <p style={{color:'red'}}>{error.name}</p>}

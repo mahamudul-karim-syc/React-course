@@ -1,0 +1,41 @@
+.navber{
+  text-align: center;
+  color: red;
+  font-size: medium;
+  
+}
+.demo{
+  background-color:yellow;
+}
+.producat-card{
+  background-color: aquamarine;
+  border-radius: 40px;
+  padding: 15px;
+  width: auto;
+  height: auto;
+}
+.login{
+  background-color: aqua;
+  text-align: center;
+
+}
+.producat-continer{
+  background-color: antiquewhite;
+
+  padding: 10px;
+  border: 2px solid blue;
+
+
+}
+.producat-ditels{
+  display: grid;
+  grid-template-columns: repeat(3 ,1fr);
+  gap: 10px;
+  
+
+}
+.all-cart{
+  text-align: center;
+  padding: 10px;
+  
+}

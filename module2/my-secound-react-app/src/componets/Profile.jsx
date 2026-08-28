@@ -1,22 +1,24 @@
 import { useState } from "react";
 
-
 const Profile = () => {
-    const [user , setUser]=useState({name:'karim',age:22,location:'dinjpur'})
-    console.log(user,'user')
-    const Hendleage=()=>{
-        // newuser.age=setUser.age+1 
+    const [user,setUser]=useState({
+        name:'karim',
+        age:22,
+        location:'Dinajpur'
+    })
+    const agehendler=()=>{
+        
         const newuser={...user,age:user.age+1}
         setUser(newuser)
-
+    //    setUser({...user,age:user.age+1})
     }
     return (
-        <div className="profile-card">
-            profile
-            <h2>{user.name}</h2>
-             <h2>{user.age}</h2>
-              <h2>{user.location}</h2>
-              <button onClick={()=>Hendleage()}>incriment age</button>
+        <div className="list">
+            <h2>Profile</h2>
+            <h3>{user.name}</h3>
+            <h3>{user.age}</h3>
+            <h3>{user.location}</h3>
+            <button onClick={agehendler}>incrementage</button>
         </div>
     );
 };

@@ -1,0 +1,155 @@
+
+.todo-list{
+  display: flex;
+  gap: 10px;
+
+  padding: 10px;
+  margin-left: auto;
+
+}
+.todo-continer{
+    text-align: center;
+    background-color: aqua;
+    width: 400px;
+    margin: auto;
+}
+.user-continer{
+  background-color: black;
+  margin: auto;
+  padding: 15px;
+  border-radius: 20px;
+  color: aliceblue;
+  width: 90%;
+  height: auto;
+}
+.prodact-cart{
+  background-color: aqua;
+  color: black;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 30px;
+
+
+}
+.cart-continer{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+.select-user{
+    background: black;
+  color: white;
+  font-size: 25px;
+  border: 2px solid white;
+  border-radius: 5px;
+  width: 90%;
+  margin: 70px auto;
+  padding: 10px 20px;
+  
+}
+
+/* 
+.product-card {
+  width: 320px;
+  background: white;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.12);
+  transition: 0.3s ease;
+  border: 1px solid #eee;
+}
+
+.product-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
+}
+
+
+.product-image {
+  height: 260px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f8f8f8;
+  padding: 20px;
+}
+
+.product-image img {
+  width: 190px;
+  height: 220px;
+  object-fit: contain;
+  transition: 0.3s ease;
+}
+
+.product-card:hover .product-image img {
+  transform: scale(1.05);
+}
+
+.product-info {
+  padding: 20px;
+}
+
+.category {
+  display: inline-block;
+  background: #eef2ff;
+  color: #4f46e5;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.product-info h2 {
+  font-size: 18px;
+  line-height: 1.4;
+  margin: 12px 0;
+  color: #222;
+}
+
+.description {
+  color: #666;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.rating {
+  margin: 15px 0;
+  font-weight: bold;
+}
+
+.rating span {
+  color: #777;
+  font-size: 13px;
+  margin-left: 5px;
+  font-weight: normal;
+}
+
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.bottom h3 {
+  font-size: 24px;
+  color: #111;
+  margin: 0;
+}
+
+.bottom button {
+  border: none;
+  background: #4f46e5;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.bottom button:hover {
+  background: #3730a3;
+}
+  */

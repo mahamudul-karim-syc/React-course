@@ -1,14 +1,11 @@
 
-
-const Count = ({counter,setCounter}) => {
-    // console.log(Count)
-
+const Count = ({count,setcount}) => {
+    count=50;
     return (
-        <h2>
-             {counter }
-            <button onClick={()=>setCounter(100)}>update</button>
-           
-        </h2>
+        <div>
+            <h2>{count}</h2>
+        <button onClick={()=>setcount(100)}>update</button>
+        </div>
     );
 };
 

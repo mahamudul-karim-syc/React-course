@@ -1,36 +1,31 @@
 import { useState } from "react";
 
-
 const Shoping = () => {
+    const [todo,setTodo]=useState(['tel','alu','potol','morice','holud' ])
+    const removeitem=(item)=>{
+        console.log(item)
+        const newlist=todo.filter((todoitem)=>todoitem !=item)
+        setTodo(newlist)
 
-    const [todo,setTodo]=useState(['milk','pen','laptop','hedephone'])
-   // console.log(todo,'todo')
-    const hendleremove=(item)=>{
-       // console.log(item)
-       const newtodolist=todo.filter((todoitem)=>{
-        return todoitem!=item
-       })
-       setTodo(newtodolist)
     }
-     const addtotoitem=(newtoto)=>{
-        setTodo([...todo,newtoto])
+    const addtolist=(newitem)=>{
+        console.log(newitem)
+        setTodo((prvtodo)=>[...prvtodo,newitem])
 
-    
-       }
-
+    }
     return (
-        <div className="todo-list">
-             <h2>todo list</h2>
-             <button onClick={()=>addtotoitem("chosma")}>chosma</button>
-             <button onClick={()=>addtotoitem("gori")}>gori</button>
-            <div className="item-parent">
-               
-                {todo.map((item,ind)=>{
-                    return <h2 key={ind} onClick={()=>hendleremove(item)}>{item}</h2>
-                })
+        <div className="list">
+            <h2>Shoplist</h2>
+            <button onClick={()=>addtolist('solt')}>solt</button>
+            <div className="todo-list">
+                {
+                    todo.map((items,ind)=>{
+                        return <h2 key={ind} onClick={()=>removeitem(items)}>{items}</h2>
+                    })
                 }
             </div>
            
+            
         </div>
     );
 };
